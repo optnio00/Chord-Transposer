@@ -1,0 +1,9 @@
+<resources>
+	<dimen name="text_size_xsmall">8px</dimen>
+	<dimen name="text_size_small">10px</dimen>
+	<dimen name="text_size_medium">12px</dimen>
+	<dimen name="text_size_large">14px</dimen>
+	<dimen name="text_size_xlarge">16px</dimen>
+	<dimen name="popup_height">90dp</dimen>
+	<dimen name="popup_text_height">70dp</dimen>
+</resources>

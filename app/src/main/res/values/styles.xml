@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Animations" />
+
+	<style name="Animations.GrowFromBottom">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+
+	<style name="Animations.GrowFromTop">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+	</style>
+
+
+	<style name="QTheme" parent="android:Theme.Light">
+		<item name="android:windowBackground">@color/q_green</item>
+		<item name="android:colorBackground">@color/q_green</item>
+		<item name="android:textViewStyle">@style/QText</item>
+	</style>
+
+	<color name="q_green">#008000</color>
+	<color name="white">#FFFFFF</color>
+
+	<style name="QText" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:typeface">sans</item>
+	</style>
+
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	<style name="Fragment">
+		<item name="android:padding">10dp</item>
+	</style>
+	<style name="MyButton" parent="Theme.AppCompat.Light">
+		<item name="colorControlHighlight">#673AB7</item>
+		<item name="colorButtonNormal">#EC407A</item>
+	</style>
+	<style name="ButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+		<item name="colorButtonNormal">@color/colorAccent</item>
+	</style>
+
+	<!-- Text Styles -->
+	<style name="Text">
+		<item name="android:textColor">#FFF</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+
+
+	<style name="CircularProgress" parent="Theme.AppCompat.Light">
+		<item name="colorAccent">#673AB7</item>
+	</style>
+
+
+
+</resources>

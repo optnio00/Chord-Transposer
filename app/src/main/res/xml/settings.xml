@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/pref_category_appearance">
+		
+		<ListPreference android:key="@string/pref_text_size"
+			android:title="@string/pref_text_size_title" android:persistent="true"
+			android:entries="@array/text_sizes" android:entryValues="@array/text_size_values"
+			android:defaultValue="@string/text_size_medium_value" />
+			
+		<ListPreference android:key="@string/pref_scheme"
+			android:title="@string/pref_scheme_title" android:persistent="true"
+			android:entries="@array/color_schemes" android:entryValues="@array/color_schemes"
+			android:defaultValue="@string/pref_scheme_dark" />	
+				
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/pref_category_configuration">
+	
+		<Preference android:key="@string/pref_note_naming"
+			android:title="@string/pref_note_naming_title"
+			android:persistent="true" 
+			android:defaultValue="@string/pref_note_naming_default"/>
+			
+		<CheckBoxPreference android:key="@string/pref_first_run"
+			android:title="@string/pref_first_run_title"
+			android:summary="@string/pref_first_run_summary"
+			android:persistent="true" android:defaultValue="true"/>		
+	</PreferenceCategory>
+
+</PreferenceScreen>
